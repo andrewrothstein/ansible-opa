@@ -1,0 +1,9 @@
+---
+# vars file for opa
+opa_exe: opa_{{ opa_platform }}{{ opa_exe_suffix | default("") }}
+opa_url: '{{ opa_mirror }}/{{ opa_ver }}/{{ opa_exe }}'
+opa_checksum: '{{ opa_checksums[opa_ver][opa_platform] }}'
+
+opa_ver_exe: opa_{{ opa_ver }}{{ opa_exe_suffix | default("") }}
+opa_fq_ver_exe: '{{ opa_install_dir }}/{{ opa_ver_exe }}'
+opa_fq_link_exe: '{{ opa_install_dir }}/opa'

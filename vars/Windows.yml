@@ -1,0 +1,3 @@
+---
+opa_platform: windows_amd64
+opa_exe_suffix: .exe
