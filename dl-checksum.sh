@@ -1,22 +1,22 @@
 #!/usr/bin/env sh
-VER=${1:-v0.13.5}
+VER=${1:-v0.14.1}
 DIR=~/Downloads
 MIRROR=https://github.com/open-policy-agent/opa/releases/download/$VER
 
 dl()
 {
-    OS=$1
-    PLATFORM=$2
-    SUFFIX=${3:-}
-    FILE=opa_${OS}_${PLATFORM}${SUFFIX}
-    LFILE=$DIR/opa_${OS}_${PLATFORM}_${VER}${SUFFIX}
-    URL=$MIRROR/$FILE
-    if [ ! -e $LFILE ]
+    local os=$1
+    local arch=$2
+    local suffix=${3:-}
+    local file=opa_${os}_${arch}${suffix}
+    local lfile=$DIR/opa_${os}_${arch}_${VER}${suffix}
+    local url=$MIRROR/$file
+    if [ ! -e $lfile ];
     then
-           wget -q -O $LFILE $URL
+           wget -q -O $lfile $url
     fi
-    printf "    # %s\n" $URL
-    printf "    %s_%s: sha256:%s\n" $OS $PLATFORM `sha256sum $LFILE | awk '{print $1}'`
+    printf "    # %s\n" $url
+    printf "    %s_%s: sha256:%s\n" $os $arch `sha256sum $lfile | awk '{print $1}'`
 }
 
 printf "  %s:\n" $VER
