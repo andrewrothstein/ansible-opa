@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-VER=${1:-v0.15.0}
+VER=${1:-v0.15.1}
 DIR=~/Downloads
 MIRROR=https://github.com/open-policy-agent/opa/releases/download/$VER
 
