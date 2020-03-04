@@ -9,18 +9,5 @@
       skip: true
       paths:
         - '{{ role_path }}/vars'
-- name: download...
-  become: yes
-  become_user: root
-  get_url:
-    url: '{{ opa_url }}'
-    dest: '{{ opa_fq_ver_exe }}'
-    checksum: '{{ opa_checksum }}'
-    mode: 0755
-- name: link...
-  become: yes
-  become_user: root
-  file:
-    src: '{{ opa_fq_ver_exe }}'
-    dest: '{{ opa_fq_link_exe }}'
-    state: link
+
+- include_tasks: '{{ opa_installer | default("exe") }}.yml'

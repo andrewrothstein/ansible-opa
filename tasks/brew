@@ -1,0 +1,10 @@
+---
+- name: brew install
+  homebrew:
+    name: opa
+    state: present
+
+- name: brew link
+  homebrew:
+    name: opa
+    state: linked
