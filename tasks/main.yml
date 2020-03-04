@@ -10,4 +10,4 @@
       paths:
         - '{{ role_path }}/vars'
 
-- include_tasks: '{{ role_path }}/{{ opa_installer | default("exe") }}.yml'
+- include_tasks: '{{ opa_installer | default("exe") }}.yml'
