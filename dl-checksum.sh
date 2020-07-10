@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+set -e
 DIR=~/Downloads
 MIRROR=https://github.com/open-policy-agent/opa/releases/download
 
@@ -28,4 +29,4 @@ dl_ver() {
     dl $ver windows amd64 .exe
 }
 
-dl_ver ${1:-v0.20.5}
+dl_ver ${1:-v0.21.1}
