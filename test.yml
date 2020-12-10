@@ -2,3 +2,8 @@
 - hosts: all
   roles:
   - role: '{{ playbook_dir }}'
+  tasks:
+  - command: opa version
+    register: opa_test_output
+  - debug:
+      msg: '{{ opa_test_output.stdout }}'
