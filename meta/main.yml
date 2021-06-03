@@ -31,4 +31,6 @@ galaxy_info:
         - focal
   galaxy_tags:
     - development
-dependencies: []
+dependencies:
+  - role: andrewrothstein.alpine-glibc-shim
+    version: v2.0.14
