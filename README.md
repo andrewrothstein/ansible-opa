@@ -1,6 +1,7 @@
 andrewrothstein.opa
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-opa.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-opa)
+![Build Status](https://github.com/andrewrothstein/ansible-opa/actions/workflows/build.yml/badge.svg)
+
 
 Installs the [Open Policy Agent](https://www.openpolicyagent.org/)
 
