@@ -10,7 +10,7 @@
       paths:
         - '{{ role_path }}/vars'
 - name: downloading {{ opa_url }} to {{ opa_fq_ver_exe }}
-  become: yes
+  become: true
   become_user: root
   get_url:
     url: '{{ opa_url }}'
@@ -18,7 +18,7 @@
     checksum: '{{ opa_checksum }}'
     mode: 0755
 - name: linking {{ opa_fq_link_exe }} to {{ opa_fq_ver_exe }}
-  become: yes
+  become: true
   become_user: root
   file:
     src: '{{ opa_fq_ver_exe }}'
