@@ -1,6 +1,6 @@
 ---
 # defaults file for opa
-opa_ver: v0.33.1
+opa_ver: v0.34.0
 opa_mirror: https://github.com/open-policy-agent/opa/releases/download
 opa_platform: linux_amd64
 opa_install_dir: /usr/local/bin
@@ -313,3 +313,10 @@ opa_checksums:
     darwin_amd64: sha256:e58d5c908de393011a203c8db95ab7fd0ed08cb3e93c94b2879d75dd40bb40a7
     # https://github.com/open-policy-agent/opa/releases/download/v0.33.1/opa_windows_amd64.exe
     windows_amd64: sha256:dbb6fedd4db398ff90973396e4ef4a47a06d50cfec0bc6708171db4e3eed22b7
+  v0.34.0:
+    # https://github.com/open-policy-agent/opa/releases/download/v0.34.0/opa_linux_amd64
+    linux_amd64: sha256:8154529a3d918c46c52606e6a4ce2999d1081001695c470204754d4ad91ad765
+    # https://github.com/open-policy-agent/opa/releases/download/v0.34.0/opa_darwin_amd64
+    darwin_amd64: sha256:ba823c673438ef28f01092a048677406820499083790cd22732d086fa35fa4a7
+    # https://github.com/open-policy-agent/opa/releases/download/v0.34.0/opa_windows_amd64.exe
+    windows_amd64: sha256:ccf1b38a269c7229016967cf178f22a3b21b4ed5f81dd37f0dcc6d7c283c12f6
