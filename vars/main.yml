@@ -1,5 +1,8 @@
 ---
 # vars file for opa
+opa_os: '{{ ansible_system | lower }}'
+opa_arch: '{{ opa_arch_map[ansible_architecture] }}'
+opa_platform: '{{ opa_os }}_{{ opa_arch }}'
 opa_exe: opa_{{ opa_platform }}{{ opa_exe_suffix | default("") }}
 opa_url: '{{ opa_mirror }}/{{ opa_ver }}/{{ opa_exe }}'
 opa_checksum: '{{ opa_checksums[opa_ver][opa_platform] }}'
