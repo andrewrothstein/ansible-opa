@@ -25,8 +25,11 @@ dl_ver() {
     local ver=$1
     printf "  %s:\n" $ver
     dl $ver linux amd64
+    dl $ver linux amd64_static
+    dl $ver linux arm64_static
     dl $ver darwin amd64
+    dl $ver darwin arm64_static
     dl $ver windows amd64 .exe
 }
 
-dl_ver ${1:-v0.46.1}
+dl_ver ${1:-v0.47.1}
