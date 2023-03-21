@@ -14,7 +14,6 @@ galaxy_info:
     - name: Debian
       versions:
         - bullseye
-        - buster
     - name: EL
       versions:
         - 8
@@ -25,7 +24,6 @@ galaxy_info:
         - 37
     - name: Ubuntu
       versions:
-        - bionic
         - focal
         - jammy
   galaxy_tags:
