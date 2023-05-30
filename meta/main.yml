@@ -13,14 +13,15 @@ galaxy_info:
         - all
     - name: Debian
       versions:
+        - bookworm
         - bullseye
     - name: EL
       versions:
         - 9
     - name: Fedora
       versions:
-        - 36
         - 37
+        - 38
     - name: Ubuntu
       versions:
         - focal
