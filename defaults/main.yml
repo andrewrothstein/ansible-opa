@@ -1,6 +1,6 @@
 ---
 # defaults file for opa
-opa_ver: v0.55.0
+opa_ver: v0.57.0
 opa_mirror: https://github.com/open-policy-agent/opa/releases/download
 opa_arch_map:
   x86_64: amd64
@@ -597,3 +597,29 @@ opa_checksums:
     darwin_arm64_static: sha256:831371c8f27e8f700f3bdd16e123eaf24d80cafc6375f40904970f36f0553e89
     # https://github.com/open-policy-agent/opa/releases/download/v0.55.0/opa_windows_amd64.exe
     windows_amd64: sha256:23b4300fc0e9a9af7c5cf6f955e91e3dd34edfe6b40e2ffca480f892f0538101
+  v0.56.0:
+    # https://github.com/open-policy-agent/opa/releases/download/v0.56.0/opa_linux_amd64
+    linux_amd64: sha256:d1da2d4612a6f591c1b5ee3026e72bd20e8e915ffb61ea2181e208b2c56d64db
+    # https://github.com/open-policy-agent/opa/releases/download/v0.56.0/opa_linux_amd64_static
+    linux_amd64_static: sha256:623771025227588898af1788998d5b5f29068a887682cd8b8e9699136d4cf121
+    # https://github.com/open-policy-agent/opa/releases/download/v0.56.0/opa_linux_arm64_static
+    linux_arm64_static: sha256:7b1c2373bcb7e0387eb51e268aaca83f525ac93b61b707d255595e2bc8fdb5f6
+    # https://github.com/open-policy-agent/opa/releases/download/v0.56.0/opa_darwin_amd64
+    darwin_amd64: sha256:f46e1a37bf6e3ad98523bd12ad51fe3b9f1ea660dfb3e9131ae1c84eece6dd57
+    # https://github.com/open-policy-agent/opa/releases/download/v0.56.0/opa_darwin_arm64_static
+    darwin_arm64_static: sha256:3eb5fa68f7e4fd77bdf1756286bc425f4f0ab56ed76901e3362e07e716bf8efe
+    # https://github.com/open-policy-agent/opa/releases/download/v0.56.0/opa_windows_amd64.exe
+    windows_amd64: sha256:8b2aab7e968245b178c2480e4843ad8d0b6551283306a9ce155545b2f72782db
+  v0.57.0:
+    # https://github.com/open-policy-agent/opa/releases/download/v0.57.0/opa_linux_amd64
+    linux_amd64: sha256:94f693eea2e99e235f27855581e099426015c27a2bac8982d6ad31f50f831e6e
+    # https://github.com/open-policy-agent/opa/releases/download/v0.57.0/opa_linux_amd64_static
+    linux_amd64_static: sha256:b52c1d58d9c7ffe378d5bda0ab1aeed7eb6a662a466484c92dce0af803a13986
+    # https://github.com/open-policy-agent/opa/releases/download/v0.57.0/opa_linux_arm64_static
+    linux_arm64_static: sha256:461a9594edffff347198ac62e3903153a5b5079d53070aab6259e8f9c3719429
+    # https://github.com/open-policy-agent/opa/releases/download/v0.57.0/opa_darwin_amd64
+    darwin_amd64: sha256:fdb39c83714c47c26ee8ceb57fa468f9cd22276e0e8bf14128ad5422611009bd
+    # https://github.com/open-policy-agent/opa/releases/download/v0.57.0/opa_darwin_arm64_static
+    darwin_arm64_static: sha256:be2b07018a31b0e8701b9ea24ba21773fd9946284605e0707f9053ede5459862
+    # https://github.com/open-policy-agent/opa/releases/download/v0.57.0/opa_windows_amd64.exe
+    windows_amd64: sha256:7e3370179d31019d883d86fee0fbcb54d50954fad6367c28a9729c54ff00b68a
