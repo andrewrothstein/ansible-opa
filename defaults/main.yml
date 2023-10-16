@@ -3,8 +3,9 @@
 opa_ver: v0.57.0
 opa_mirror: https://github.com/open-policy-agent/opa/releases/download
 opa_arch_map:
+  aarch64: arm64_static
+  arm64: arm64_static
   x86_64: amd64
-opa_platform: linux_amd64
 opa_install_dir: /usr/local/bin
 opa_checksums:
   v0.12.0:
