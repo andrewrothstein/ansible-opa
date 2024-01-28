@@ -1,13 +1,15 @@
 ---
 galaxy_info:
-  role_name: opa
   author: Andrew Rothstein
-  description: installs opa
   company: BlackRock Financial Management
+  description: installs opa
+  galaxy_tags:
+    - development
   license: MIT
-  min_ansible_version: 2.0
+  min_ansible_version: '2.0'
+  namespace: andrewrothstein
   platforms:
-    - name: Archlinux
+    - name: ArchLinux
       versions:
         - all
     - name: Debian
@@ -16,14 +18,13 @@ galaxy_info:
         - bullseye
     - name: EL
       versions:
-        - 9
+        - '9'
     - name: Fedora
       versions:
-        - 38
-        - 39
+        - '38'
+        - '39'
     - name: Ubuntu
       versions:
         - focal
         - jammy
-  galaxy_tags:
-    - development
+  role_name: opa

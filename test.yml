@@ -1,10 +1,14 @@
 ---
-- hosts: all
-  roles:
-    - role: '{{ playbook_dir }}'
+- name: Testing andrewrothstein.opa
+  hosts: all
   tasks:
-    - command: opa version
+    - name: Installing andrewrothstein.opa
+      ansible.builtin.include_role:
+        name: '{{ playbook_dir }}'
+    - name: Executing 'opa version'
+      ansible.builtin.command: opa version
+      changed_when: false
       register: opa_test_output
-    - name: opa version
-      debug:
+    - name: Output of 'opa version'
+      ansible.builtin.debug:
         msg: '{{ opa_test_output.stdout }}'
