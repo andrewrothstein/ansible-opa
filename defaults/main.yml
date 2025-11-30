@@ -1,6 +1,6 @@
 ---
 # defaults file for opa
-opa_ver: v1.3.0
+opa_ver: v1.11.0
 opa_mirror: https://github.com/open-policy-agent/opa/releases/download
 opa_arch_map:
   aarch64: arm64_static
@@ -845,3 +845,172 @@ opa_checksums:
     darwin_arm64_static: sha256:0b2d60bb885780e191bf8a3321dba2a2bd5babf61a41806ae8787f2cd028f647
     # https://github.com/open-policy-agent/opa/releases/download/v1.3.0/opa_windows_amd64.exe
     windows_amd64: sha256:fe400211ec06f7fa9769fc32a9f9687bb3973aa916466836e3a92fc6956e8c8b
+  v1.4.0:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.0/opa_linux_amd64.sha256
+    linux_amd64: sha256:28f9ef9da0b81305cb6d244c2dac7f433a21ab5acf692536b9e57acfe50db30d
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.0/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:1a2337dbd75d623d759c9e47f64564f101b6923b069663f06f14377b6bb83119
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.0/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:4553440d99b858f657750a510ac08d67acb078bcbcf62ed666c5df0a4d9d45ab
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.0/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:ed508193f4fb2c518ea7f782f89270128e7050a3796aa9ac6206aa0588709fe9
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.0/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:1d38e3a2ff4e6fbcaf92cea04de973fad958f64c9b3cb20866532fd5a82f811f
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.0/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:17edb1994d6bc681c7267037a7f4d93d8ef6e15566ee0b3939d006daefe6bf37
+  v1.4.1:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.1/opa_linux_amd64.sha256
+    linux_amd64: sha256:316290c2028cd719f008595cd99c68fc064cb1b52481d4efc122cb0373c74462
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.1/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:482ed21c93d0d9c3f5cfc4113cf44a3edbf0d2436f7e1c4c4983175ede5fb1ce
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.1/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:43e548be996579a99402c618f447cb678191677556f6f3dabc6420176c21f837
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.1/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:97fc75b7a86ea32fadb09c1c9099b10065ba21b948b113f117a149883698a2c8
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.1/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:be568623b5a82d7c6d0b6488f5f54af0ac52ab5da891ec940474342a7f4b2c8f
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.1/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:7166529d32ac78305e0301c8b00b3a995ccd18ca49bc4142ae80eb9cabaed04a
+  v1.4.2:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.2/opa_linux_amd64.sha256
+    linux_amd64: sha256:ac0b0da30b8bbfba8b16a89dc811dddcf8b182f6dac4318101fadaea07b4994e
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.2/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:2c0ccdbbe0b8e2a5d12d9c42d92f1f34f494ffb32d1f3c4ddc36101be637d66f
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.2/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:facd6a9ea375c6299701f86b90b470e52305c5726c4f136e2980fa6123ae9613
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.2/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:5509df39af8bbfb6518f05c7f32966ffc19e6af9f4657ca2fb30405d6256ff7c
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.2/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:e6cc4a691625958c3ad315eac8a51838ab8a1c13372777736342021fbc6b8cc3
+    # https://github.com/open-policy-agent/opa/releases/download/v1.4.2/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:9c047d572dceebaf54c540c16ddf8c811504b9d511b6ce00287ae8933508aa56
+  v1.5.0:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.5.0/opa_linux_amd64.sha256
+    linux_amd64: sha256:e70d5a006e5815f10e4d0e3299956849f0616ead89130c14ea8788a945e482f3
+    # https://github.com/open-policy-agent/opa/releases/download/v1.5.0/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:657a8c4c173115f9a9c4a0df8451bc5080b40f50748e6a98a950897057dba0b5
+    # https://github.com/open-policy-agent/opa/releases/download/v1.5.0/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:d6277db1ad5f5bea7c9ee2a00b63df6083ed4ef5de991e0f448d2a22b549cf11
+    # https://github.com/open-policy-agent/opa/releases/download/v1.5.0/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:4033db9d0ac92933dd88481b2040cdc5799c58bb40241cd9d523d7dbb00d8a79
+    # https://github.com/open-policy-agent/opa/releases/download/v1.5.0/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:31f39619f4492378bed044664eb7b5924adc31eb0cfcfed05c8670f0542725b3
+    # https://github.com/open-policy-agent/opa/releases/download/v1.5.0/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:3cc5d4a1e885c0bd41e37f070f7538f858cdbd4c0c057aaf1f78273ee7ce03c5
+  v1.5.1:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.5.1/opa_linux_amd64.sha256
+    linux_amd64: sha256:4eb061c61555e3e912a2a45dc413ebad2d77a748b4faf8aca84f201d356651bd
+    # https://github.com/open-policy-agent/opa/releases/download/v1.5.1/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:dcc6dff710524f394a71ec7d8e93353ea1c04426e12be37f814f5b47c9c947cb
+    # https://github.com/open-policy-agent/opa/releases/download/v1.5.1/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:d2ee9a5653a875f1b956eda86a5dd77988a241ff0521b9b9a28bb7ce7ef0aa89
+    # https://github.com/open-policy-agent/opa/releases/download/v1.5.1/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:60176684cddd9f30099b40c2e6d40a7131e3d25ae8d78970536c15aafeff5c97
+    # https://github.com/open-policy-agent/opa/releases/download/v1.5.1/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:25cd34e450e64db7f8dbbd3cf869ce6d61dbfab39b5995314ff94c5bdb68692e
+    # https://github.com/open-policy-agent/opa/releases/download/v1.5.1/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:8da5fa3bd6f0607bb45b3b1a9f0b65d2e4eee400fef207b7c4b9ddb7557893e3
+  v1.6.0:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.6.0/opa_linux_amd64.sha256
+    linux_amd64: sha256:cebf6d1900cbb856c5acbb05feff51213be29a0fc00f5c0d1d4ce76ac612267a
+    # https://github.com/open-policy-agent/opa/releases/download/v1.6.0/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:0deb8a2d40fc5d75316530f50f63456a3000b20b50ef4158a81003b4aebf4892
+    # https://github.com/open-policy-agent/opa/releases/download/v1.6.0/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:540e7aa50beb9da7d0cf979bd485bf59e5bca26fa90ce02d0b469f81a822b98e
+    # https://github.com/open-policy-agent/opa/releases/download/v1.6.0/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:b8448045bfe68a898ba517a8b363ad2523b390847ca635841eca0a86117dcf73
+    # https://github.com/open-policy-agent/opa/releases/download/v1.6.0/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:5677598cfc4f4a5ae9dc3e3d67922f6479b6b76917a359be68b2fa65351b0e3c
+    # https://github.com/open-policy-agent/opa/releases/download/v1.6.0/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:bfc0c7fec18d7f690dfaecbab3ec87758a899587a5125cada3e0f1a5d58ce667
+  v1.7.0:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.7.0/opa_linux_amd64.sha256
+    linux_amd64: sha256:3c20e346b8103d7ba95fc7071c1dbc87b94bf205f73b60ff5534eb1db3b5a1a7
+    # https://github.com/open-policy-agent/opa/releases/download/v1.7.0/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:50cc6d82383ba868042b838a413417475f8f985e365b4fa8a2db06012148a9c6
+    # https://github.com/open-policy-agent/opa/releases/download/v1.7.0/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:e08fcb9ea07e0bba2eba97ca660629b02da21ad48ad038189a7c3fcbc089adf9
+    # https://github.com/open-policy-agent/opa/releases/download/v1.7.0/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:ab345abe28707569bea9cd01f206f09b8b362984462458b66e696fe9ecf3a20f
+    # https://github.com/open-policy-agent/opa/releases/download/v1.7.0/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:be731107bca44dfc4bba4bcdcdc5c9fa0b9b2772000395a8845cfdf03268a130
+    # https://github.com/open-policy-agent/opa/releases/download/v1.7.0/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:2a9fab6ac63cfe35c839d346a783eb9a92c73f72b839d69747ea7f2d51c306ca
+  v1.7.1:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.7.1/opa_linux_amd64.sha256
+    linux_amd64: sha256:7426bf5504049d7444f9ee9a1d47a64261842f38f5308903ef6b76ba90250b5a
+    # https://github.com/open-policy-agent/opa/releases/download/v1.7.1/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:86cf5e8d189f5d56cc2b05a7920b557c61338aa088334ad2fb3f6de0ec931f04
+    # https://github.com/open-policy-agent/opa/releases/download/v1.7.1/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:a81af8cd767f1870e9e23b8ed0ad8f40b24e5c0a64c5768c75d5c292aaa81e54
+    # https://github.com/open-policy-agent/opa/releases/download/v1.7.1/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:51da8fa6ce4ac9b963d4babbd78714e98880b20e74f30a3f45a96334e12830bd
+    # https://github.com/open-policy-agent/opa/releases/download/v1.7.1/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:fe2a14b6ba7f587caeb62ef93ef62d1e713776a6e470f4e87326468a8ecfbfbd
+    # https://github.com/open-policy-agent/opa/releases/download/v1.7.1/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:205f87d0fd1e2673c3a6f9caf9d9655290e478a93eeb3ef9f211acdaa214a9ca
+  v1.8.0:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.8.0/opa_linux_amd64.sha256
+    linux_amd64: sha256:7c2105efa744ec5519d38ac7463fb1eed1e9b4a352891ca53a8de549192abd11
+    # https://github.com/open-policy-agent/opa/releases/download/v1.8.0/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:1359b1bff233fc0a290066e864c75b8158e52756319757b6854df467fe7fc146
+    # https://github.com/open-policy-agent/opa/releases/download/v1.8.0/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:bfa757971d62cbd5c35322dff2b837a2ef03ee587af34e999e03fdd903d586e4
+    # https://github.com/open-policy-agent/opa/releases/download/v1.8.0/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:7690c21fbcd2ed99606b5423002597a5c147330c8b276a020ac7aff263768248
+    # https://github.com/open-policy-agent/opa/releases/download/v1.8.0/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:43033787fb29f6cb4c90dd7afb552883ac9d1bf2a652f9d4b694ecf73738fd7e
+    # https://github.com/open-policy-agent/opa/releases/download/v1.8.0/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:6ee60d6eafbab591560989e30a990d39ed442c7c3f6e5e1a29f95144ccaa30e2
+  v1.9.0:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.9.0/opa_linux_amd64.sha256
+    linux_amd64: sha256:1597f68f32b86b502e68fb15acd4312b8a78b24d6fdbed3a1786d8d7301c63e6
+    # https://github.com/open-policy-agent/opa/releases/download/v1.9.0/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:66fa66f3b730b2fb086003863428b382b2898d343adb4b5dfab5598b4d739eed
+    # https://github.com/open-policy-agent/opa/releases/download/v1.9.0/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:e7fdc5f823d5156cd449d6242b97b237cacbcbe4f531743d695c8d413d9aebb3
+    # https://github.com/open-policy-agent/opa/releases/download/v1.9.0/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:1122d0176604cd055d8f88b2b4d4019c469891d37e0bce9c1306e001e656ad2e
+    # https://github.com/open-policy-agent/opa/releases/download/v1.9.0/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:0134337a52bd255a2202eac4b4b85348fd4a77f94e8dab8ebcb2399ec018f4c0
+    # https://github.com/open-policy-agent/opa/releases/download/v1.9.0/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:ea07eb413f7d0b258dc2e45d054ebb7df6fad42ad436bbe96e5dc6d5e7bc2951
+  v1.10.0:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.10.0/opa_linux_amd64.sha256
+    linux_amd64: sha256:c6e9689c5dbb91f81a957f216dbece57e213b9c614cd77cb2927176c38077f86
+    # https://github.com/open-policy-agent/opa/releases/download/v1.10.0/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:bebbfc1652f544fae85d5dc3c5991a791d201cbe015be326f7076924832ffe83
+    # https://github.com/open-policy-agent/opa/releases/download/v1.10.0/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:d48974e256ba18a01cbfef92fd784205037fe22d520ffce59a97a46d3239811e
+    # https://github.com/open-policy-agent/opa/releases/download/v1.10.0/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:6ad7ccc4e22df2a06d05b3b3576e76ac117b82963f03db094e3c6599309b7d63
+    # https://github.com/open-policy-agent/opa/releases/download/v1.10.0/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:1ec7a71ec2f5e97164be0ee340d77f8fa2e0ffbc6d68d2e6e5629ea6d962dc74
+    # https://github.com/open-policy-agent/opa/releases/download/v1.10.0/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:d911f4ab93f71022d928195f426ac1b41cb970f3f09055ca66745e6327770f71
+  v1.10.1:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.10.1/opa_linux_amd64.sha256
+    linux_amd64: sha256:fe8e191d44fec33db2a3d0ca788b9f83f866d980c5371063620c3c6822792877
+    # https://github.com/open-policy-agent/opa/releases/download/v1.10.1/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:43b1efa7e81425456dbb8d82c0256b6dbe69c934e5c4a1cb71dc65715ac4b35d
+    # https://github.com/open-policy-agent/opa/releases/download/v1.10.1/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:3b77a28ec99dcf7d98ec014ab4773bd1f9ad0340faee7b8ae811cbb8baa9f5bf
+    # https://github.com/open-policy-agent/opa/releases/download/v1.10.1/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:06b87b33385cbeabc913604e1d76fcfaac3d96cb1f084db1a456244989ea32b5
+    # https://github.com/open-policy-agent/opa/releases/download/v1.10.1/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:81ca091b6f8a54f9e9e11204c060e616bf0ea0b01378621f081b3ff13be77f09
+    # https://github.com/open-policy-agent/opa/releases/download/v1.10.1/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:4c932053350eabca47681208924046fbf3ad9de922d6853fb12cddf59aef15ce
+  v1.11.0:
+    # https://github.com/open-policy-agent/opa/releases/download/v1.11.0/opa_linux_amd64.sha256
+    linux_amd64: sha256:5450bf543dcad75a272dab92a13ad61967e1a7cba41fac4fcafd54bcf1dd13b2
+    # https://github.com/open-policy-agent/opa/releases/download/v1.11.0/opa_linux_amd64_static.sha256
+    linux_amd64_static: sha256:53451e1d1362dbb11d6703c159b05de5cd18278fa4aee0b75a0b9590d573fd0a
+    # https://github.com/open-policy-agent/opa/releases/download/v1.11.0/opa_linux_arm64_static.sha256
+    linux_arm64_static: sha256:659ecea7270eacc89dad1dee72f4b787031b0b7e8949b010a0c0c23015739e65
+    # https://github.com/open-policy-agent/opa/releases/download/v1.11.0/opa_darwin_amd64.sha256
+    darwin_amd64: sha256:eaad4e12899dcad441c31675d38f082008ffd7a4b2ed843c4226e84f38802f82
+    # https://github.com/open-policy-agent/opa/releases/download/v1.11.0/opa_darwin_arm64_static.sha256
+    darwin_arm64_static: sha256:6b7128a03cef9e6742180f26e5d858bdb74b0bbf382ea65cceab696d9643592d
+    # https://github.com/open-policy-agent/opa/releases/download/v1.11.0/opa_windows_amd64.exe.sha256
+    windows_amd64: sha256:8a65e8ad76be2bc11bbac8d631bb6972043fe73219209441f757ee233f7ccb46
